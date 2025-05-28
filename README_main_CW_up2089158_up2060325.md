@@ -8,6 +8,12 @@ The CIFAR-100 dataset contains 60,000 colour images sized 32x32 pixels, evenly d
 
 ---
 
+## Environment and Dependencies
+
+This notebook was developed and tested using Python 3.10 and TensorFlow 2.x within a Jupyter Notebook environment, executed through Visual Studio Code. Supporting libraries included NumPy and pandas for data handling, matplotlib and seaborn for data visualisation, and Plotly for interactive visual output. Scikit-learn was used for generating classification metrics and confusion matrices.
+
+---
+
 ## Code Breakdown and Justification
 
 ### 1. Importing Libraries
@@ -117,6 +123,12 @@ Limited use of AI tools (ChatGPT) was employed during the development of this co
 - Confusion Matrix Formatting: AI support helped refine the display of multi-class confusion matrices and classification reports for clearer readability.
 
 - Final Probability Bar Plot: Guidance was used to enhance the visualisation of class probabilities using Plotly, particularly for single-image prediction analysis.
+
+---
+
+## Challenges and Limitations
+
+Due to computational constraints, training time and model depth were capped to ensure timely execution. Each model was trained for a maximum of 10 epochs, which may limit the potential peak performance of deeper networks. In addition, the CIFAR-100 dataset presents inherent classification challenges due to its high number of classes and low image resolution, which makes it difficult for shallow networks to learn discriminative features effectively. These factors contribute to the moderate accuracy levels seen across all three models.
 
 ---
 
