@@ -101,6 +101,22 @@ Performance across all three models showed clear incremental improvements. Model
 
 ---
 
+## Use of AI Assistance
+
+Some sections of this notebook were written or refined with limited support from AI tools (ChatGPT) to improve code clarity and ensure Python syntax consistency—particularly in parts related to performance visualisation, probability interpretation, and formatting of classification metrics. All model architecture design, dataset processing, and final performance evaluation were independently developed, with AI used solely as a supplementary code refinement aid. The authors ensured full understanding and control over all outputs before inclusion.
+
+Limited use of AI tools (ChatGPT) was employed during the development of this coursework to assist in the following specific areas:
+
+- Model Evaluation Visualisation: Support was used to format loss/accuracy plots and clarify performance trends across epochs.
+
+- Performance Summary Table: Assistance was provided to generate code for compiling and presenting the validation and test accuracies of the three models in a structured format.
+
+- Confusion Matrix Formatting: AI support helped refine the display of multi-class confusion matrices and classification reports for clearer readability.
+
+- Final Probability Bar Plot: Guidance was used to enhance the visualisation of class probabilities using Plotly, particularly for single-image prediction analysis.
+
+---
+
 ## How to Run
 
 The code is fully contained within a Jupyter Notebook. Simply execute the cells in sequence to load data, train models, and evaluate results. The script is designed to run in VS Code or JupyterLab environments with minimal setup.
