@@ -89,8 +89,11 @@ The probability outputs from the softmax layer are used to generate a probabilit
 ## Tools Used
 
 - **TensorFlow/Keras**: For model building and training
+
 - **Matplotlib / Seaborn / Plotly**: For visualisation
+
 - **Scikit-learn**: For performance metrics
+
 - **NumPy / pandas**: For data manipulation and formatting
 
 ---
